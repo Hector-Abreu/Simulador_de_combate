@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de combate</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Selección de personajes -->
+  <div id="character-selection">
+    <h1>Selecciona tu luchador</h1>
+    <div id="fighter-list" class="character-list">
+      <!-- Los botones para seleccionar personajes se generarán dinámicamente -->
+    </div>
+  </div>
+
+  <!-- Área de combate -->
+  <div id="combat-area" class="hidden">
+    <h1>Juego de Combate de Rol</h1>
+    <div id="player-info" class="character">
+      <h2 id="player-name">Jugador</h2>
+      <p id="player-health">Salud: 100</p>
+      <p>Acciones:</p>
+      <div class="actions">
+        <button id="attack-button">Atacar</button>
+        <button id="use-skill-button">Usar Habilidad</button>
+        <button id="defend-button">Defender</button>
+      </div>
+    </div>
+    <div id="enemy-info" class="character">
+      <h2 id="enemy-name">Enemigo</h2>
+      <p id="enemy-health">Salud: 100</p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
