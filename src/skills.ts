@@ -1,11 +1,9 @@
-import { Combat } from "./combat";
-
 /**
  * Clase Skills, lista de habilidades
  */
 export class Skills {
-  private warriorSkills: string[];
-  private rogueSkills: string[]; 
+  private warriorSkills: string[] = ['Ataque Furtivo', 'Tomar aliento'];
+  private rogueSkills: string[] = ['Emboscada', 'Puñalada']; 
   constructor(){}
 
   public getWarriorSkills(): string[] {
@@ -27,5 +25,3 @@ export class Skills {
 }
 
 export let skillList: Skills = new Skills(); 
-skillList.setWarriorSkills(['Ataque Furtivo', 'Tomar aliento']);
-skillList.setRogueSkills(['Emboscada', 'Puñalada']);

@@ -9,6 +9,10 @@ export class FighterList {
     this.fighters = FighterList;
   }
 
+  public getFighters(): Fighter[] {
+    return this.fighters;
+  }
+  
   public getFighter(pos: number): Fighter {
     return this.fighters[pos];
   }
