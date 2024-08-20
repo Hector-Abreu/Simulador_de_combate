@@ -4,6 +4,6 @@ Para ejecutar el programa, abrimos una terminal y ejecutamos:
 tsc
 ```
 Y finalmente ejecutamos el archivo principal:
-```node
+```
 node .\dist\main.js
 ```
